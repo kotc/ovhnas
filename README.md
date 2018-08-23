@@ -8,7 +8,7 @@ SoYouStart.com started offering cheap backup storage space, problem is, they hav
 WIP (work-in-progress). initial work on 4.9.123 is done, kernel boots, upload speeds reach ~1.6gbit/s inside ovh infra and ~500mbit/s outside. realistically you should expect a bit less if you use LUKS and/or rsync/sshfs. still you should notice an improvement. keep in mind that your board might be located in network-clogged location (speeds can drop to 100-150mbit)
 
 ## help
-we need testers! join us on: irc://irc.freenode.com/sysarm (#sysarm on freenode network) to help testing things and/or donate to the project if you like it and feel thankful :)
+we need testers! join us on: irc://irc.freenode.com/sysarm (#sysarm on freenode network, you can also use web interface at: http://webchat.freenode.net/?channels=#SYSarm ) to help testing things and/or donate to the project if you like it and feel thankful :)
 
 ## installation
 for testers there is a script available at: http://54.37.26.148/kc375-update.sh join irc and ask for credentials

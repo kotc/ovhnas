@@ -8,6 +8,7 @@ SoYouStart.com started offering cheap backup storage space, problem is, they hav
 - initial work on 4.9.124 is done, kernel boots, upload speeds reach ~1.6gbit/s inside ovh infra and ~500mbit/s outside. realistically you should expect a bit less if you use LUKS and/or rsync/sshfs. still you should notice an improvement. keep in mind that your board might be located in network-clogged location (speeds can drop to 100-150mbit)
 - luks + hwcrypto WORKS
 - ssh/sshd + hwcrypto WORKS (install or recompile openssl lib. for debian9 it needs to be openssl-1.0)
+- wireguard: works
 
 ## help
 we need testers! join us on: irc://irc.freenode.com/sysarm (#sysarm on freenode network, you can also use web interface at: http://webchat.freenode.net/?channels=#SYSarm) to _help testing_ and/or _donate_ to the project (https://www.paypal.me/kotc) if you like it and feel thankful :)

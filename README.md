@@ -6,6 +6,7 @@ SoYouStart.com started offering cheap backup storage space, problem is, they hav
 
 ## state: WIP (work-in-progress)
 - initial work on 4.9.124 is done, kernel boots, upload speeds reach ~1.6gbit/s inside ovh infra and ~500mbit/s outside. realistically you should expect a bit less if you use LUKS and/or rsync/sshfs. still you should notice an improvement. keep in mind that your board might be located in network-clogged location (speeds can drop to 100-150mbit)
+- also ported to 4.14.67
 - luks + hwcrypto WORKS
 - ssh/sshd + hwcrypto WORKS (install or recompile openssl lib. for debian9 it needs to be openssl-1.0)
 - wireguard: works

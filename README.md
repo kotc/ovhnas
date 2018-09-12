@@ -1,5 +1,5 @@
 # ovhnas
-kernel for OVH Nas board (marvel armada375 based SYS-arm offering)
+kernel for OVH Nas board (marvel armada375 based SYS-arm offering, running at 800MHz).
 
 ## about
 SoYouStart.com started offering cheap backup storage space, problem is, they have provided quite old kernel (initially 4.5.2) which worked well, but was.. old. later they did provide updated one (4.9.58) which was a bit newer, although still old and hitting kernel regression with network driver (resulting in very slow uploads ~4mbit/s). recently (2018-08) they have updated the kernel to 4.9.124, which is nice regarding security, but still having slow uploads bug. this project aims to provide newer, bug-fixed kernel and some system tweaks.

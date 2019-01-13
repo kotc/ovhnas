@@ -5,7 +5,7 @@ kernel for OVH Nas board (marvel armada375 based SYS-arm offering, running at 80
 SoYouStart.com started offering cheap backup storage space, problem is, they have provided quite old kernel (initially 4.5.2) which worked well, but was.. old. later they did provide updated one (4.9.58) which was a bit newer, although still old and hitting kernel regression with network driver (resulting in very slow uploads ~4mbit/s). recently (2018-08) they have updated the kernel to 4.9.124, which is nice regarding security, but still having slow uploads bug. this project aims to provide newer, bug-fixed kernel and some system tweaks.
 
 ## state: WIP (work-in-progress)
-- initial work on 4.9.x is done, currently 4.9.138 kernel boots, upload speeds reach ~2.3gbit/s inside ovh infra and ~300mbit/s outside. realistically you should expect a bit less if you use LUKS and/or rsync/sshfs. still you should notice an improvement. keep in mind that your board might be located in network-clogged location (speeds can drop to 100-150mbit)
+- initial work on 4.9.x is done, currently 4.9.150 kernel boots, upload speeds reach ~2.3gbit/s inside ovh infra and ~300mbit/s outside. realistically you should expect a bit less if you use LUKS and/or rsync/sshfs. still you should notice an improvement. keep in mind that your board might be located in network-clogged location (speeds can drop to 100-150mbit)
 - also ported to 4.14.x
 - cryptodev: WORKS
 - luks + hwcrypto: WORKS

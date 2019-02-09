@@ -34,6 +34,8 @@ for testers there is a script available at: http://54.37.26.148/kc375-update.sh 
   - sshd: /etc/sshd_config: Ciphers ...
   - openssl compiled with both cryptos and digests is triggering oops so dont use.
 - gnutls: i've prepared the packages, but no one was interested so not adding them to installation script, feel free to test and report
+- dont want to install kernel or want to compile your own?
+18:37 #sysarm m132     > lol high upload speeds on stock 4.9 ovh kernel are just one `sudo sysctl -w net.ipv4.tcp_min_tso_segs=20` away
 
 ## TODO
 - benchmarks in different usage scenarios (ie. with/without hwcrypto, luks, ssh/rsync). initial quick and dirty comparison is at http://54.37.26.148/kc375-bench/bench-all.php

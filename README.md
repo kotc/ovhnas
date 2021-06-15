@@ -15,7 +15,7 @@ SoYouStart.com started offering cheap backup storage space, problem is, they hav
 - LXC: works
 
 ## help
-we need testers! join us on: irc://irc.freenode.com/sysarm (#sysarm on freenode network, you can also use web interface at: http://webchat.freenode.net/?channels=#SYSarm) to _help testing_ and/or _donate_ to the project (https://www.paypal.me/kotc) if you like it and feel thankful :) remember to stay around for longer, best time to get reply is ~8-22 CEST time.
+we need testers! join us on: irc://irc.libera.chat/SYSarm (#SYSarm on libera.chat network, you can also use web interface at: https://web.libera.chat/?nick=SYSarm-n?#SYSarm ) to _help testing_ and/or _donate_ to the project (https://www.paypal.me/kotc) if you like it and feel thankful :) remember to stay around for longer, best time to get reply is ~8-22 CEST time.
 
 ## installation
 for testers there is a script available at: http://54.37.26.148/kc375-update.sh join irc and ask for credentials
